@@ -1,9 +1,10 @@
 package Airplans;
 
 public class AirplaneFourth {
+    //змінні класу оголошені модифікатором static
     static double length;
     static double width;
-
+// Статичний блок ініціалізації класу
     static {
         length = 45.4;
         width = 8.2;
